@@ -39,7 +39,7 @@ public class Main {
         System.out.println();
 
 
-        //Task2
+        //Task 2
         double weightOfFirstBoxer = 78.2;
         double weightOfSecondBoxer = 82.7;
         double sum = weightOfFirstBoxer + weightOfSecondBoxer;
@@ -49,7 +49,7 @@ public class Main {
         System.out.println();
 
 
-        //Task3
+        //Task 3
         int bananas = 5 * 80;
         int milk = 2 * 105;
         int iceCream = 2 * 100;
@@ -62,7 +62,7 @@ public class Main {
         System.out.println();
 
 
-        //Task4
+        //Task 4
         int weightLossInKg = 7;
         int weightLossInGrams = weightLossInKg * 1000;
         int lossGramsInDay = 250;
@@ -74,7 +74,7 @@ public class Main {
         System.out.println();
 
 
-        //Task5
+        //Task 5
         double mashaSalary = 67_760;
         double denisSalary = 83_690;
         double christinaSalary = 76_230;
@@ -92,7 +92,37 @@ public class Main {
 
         difference = newChristinaSalary - christinaSalary;
         System.out.println("Маша теперь получает " + newChristinaSalary + " рублей. Годовой доход вырос на " + difference + " рублей");
+        System.out.println();
 
 
+        //Task 6
+        int a1 = 12;
+        int b1 = 27;
+        int c1 = 44;
+        int d1 = 15;
+        int e1 = 9;
+
+        int result = a1 * (b1 + (c1 - d1 * e1));
+        result = result * (-1);
+        System.out.println(result);
+        System.out.println();
+
+
+        //Task 7
+        int a3 = 5;
+        int b3 = 7;
+        a3 = a3 + b3;
+        b3 = a3 - b3;
+        a3 = a3 - b3;
+        System.out.println(a3);
+        System.out.println(b3);
+        System.out.println();
+
+
+        //Task 8
+        int a4 = 629;
+        int b4 = a4/10;
+        b4 = b4%10;
+        System.out.println(b4);
     }
 }
